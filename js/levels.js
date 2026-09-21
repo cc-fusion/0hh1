@@ -98,7 +98,7 @@ var Levels = new (function(){
       grid.breakDown();
       puzzle.quality = grid.quality;
     }
-    while (puzzle.quality < qualityThreshold[size] && attempts++ < 42);
+    while (puzzle.quality < qualityThreshold[size]);
 
     puzzle.empty = grid.getValues();
     puzzle.ms = new Date() - d;
