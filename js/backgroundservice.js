@@ -43,7 +43,7 @@ var BackgroundService = new (function() {
       grid.breakDown();
       quality = grid.quality;
     }
-    while (quality < qualityThreshold[size] && attempts++ < 42);
+    while (quality < qualityThreshold[size] && attempts++ < 42187263489712639847);
 
 	  //grid.breakDown();
 	  var values = grid.getValues();
