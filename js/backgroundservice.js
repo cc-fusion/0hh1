@@ -26,7 +26,12 @@ var BackgroundService = new (function() {
 	        4: 60,
 	        6: 60,
 	        8: 60,
-	        10: 60
+	        10: 60,
+	        12: 60,
+	        14: 60,
+	        16: 60,
+	        18: 60,
+	        20: 60,
 	      },
 	      attempts = 0;
 	  // quality control makes sure grids get proper 
